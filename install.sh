@@ -1,4 +1,4 @@
-apk add libgcc libstdc++ python2 bash
+apt-get install -y libgcc libstdc++ python2 bash
 
 cp -r /app/ton-sdk /usr/include
 cp -r /app/cpp-sdk /usr/include
