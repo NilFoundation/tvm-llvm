@@ -41,6 +41,7 @@ add_llvm_target(TVMCodeGen
   TVMContinuationsHoist.cpp
   TVMLoadStoreReplace.cpp
   TVMIfConversionTerm.cpp
+  TVMLowerIntrinsics.cpp
 )
 
 add_subdirectory(InstPrinter)
