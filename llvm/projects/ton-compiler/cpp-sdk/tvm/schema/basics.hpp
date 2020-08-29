@@ -663,6 +663,9 @@ struct lazy {
   __always_inline void operator=(_Tp val); // implemented in make_builder.hpp
   __always_inline void operator=(slice sl) { sl_ = sl; }
 
+  __always_inline
+  static lazy make_std(int8 workchain, uint256 addr); // implemented in make_builder.hpp
+
   DEFAULT_EQUAL(lazy<_Tp>)
   slice sl_;
 };
